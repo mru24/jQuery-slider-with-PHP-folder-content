@@ -10,6 +10,7 @@ $(document).ready(function(){
   	if(active.is(':last-child')) {
   		$('.slide:first').addClass('active');
   	}
+    
   	var past = $('.slide.past');
   	past.removeClass('past');
   	past.next().addClass('past');
